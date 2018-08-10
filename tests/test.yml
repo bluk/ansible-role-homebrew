@@ -1,0 +1,15 @@
+---
+- hosts: localhost
+  remote_user: root
+  roles:
+    - role: ansible-role-homebrew
+      vars:
+        homebrew_taps:
+          - name: homebrew/bundle
+          - name: homebrew/core
+        homebrew_packages:
+          - name: curl
+          - name: git
+          - name: gnupg
+        homebrew_update: true
+        homebrew_upgrade: false
