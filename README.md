@@ -18,6 +18,8 @@ Role Variables
 
 * `homebrew_packages` - A list of dictionaries of Homebrew packages. The dictionary must contain a `name` key with the package name as the value.
 
+* `homebrew_casks` - A list of dictionaries of Homebrew casks. The dictionary must contain a `name` key with the cask name as the value.
+
 * `homebrew_update` - A boolean describe if Homebrew should update.
 
 * `homebrew_upgrade` - A boolean describe if Homebrew should upgrade existing packages.

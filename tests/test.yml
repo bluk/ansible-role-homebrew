@@ -11,5 +11,7 @@
           - name: curl
           - name: git
           - name: gnupg
+        homebrew_casks:
+          - name: alfred
         homebrew_update: true
         homebrew_upgrade: false
